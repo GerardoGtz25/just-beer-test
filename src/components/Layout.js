@@ -1,3 +1,10 @@
-export const Layout = () => {
-  return <div>Layout</div>;
+import { NavBar } from './NavBar';
+
+export const Layout = ({ children }) => {
+  return (
+    <>
+      <NavBar />
+      <div className='container'>{children}</div>
+    </>
+  );
 };
