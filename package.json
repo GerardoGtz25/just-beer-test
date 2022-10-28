@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "http://gerardogtz25.github.io/just-beer-test",
+  "proxy": "https://justbeerapp.com/api/v8/articles",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
